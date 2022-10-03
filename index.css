@@ -1,0 +1,55 @@
+label ,input{
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+select{
+    margin-bottom: 15px;
+}
+table {
+    width: 700px;
+    height: auto;
+    border: 1px solid red;
+    border-spacing: 0;
+    border-collapse: collapse;
+    list-style: none;
+}
+table tr:nth-child(1){
+   background-color: #fff;
+}
+table tr:nth-child(odd) {
+    background-color: green;
+}
+
+table tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+th,
+td {
+    border: 1px solid red;
+    text-align: center
+}
+
+ul{
+    height: 40px;
+    line-height: 40px;
+}
+ul>li{
+    float: left;
+    color: blue;
+    margin: 0 10px;
+    list-style: none;
+    cursor: pointer;
+}
+ul li.active{
+    color: red;
+}
+ol{
+    float: left;
+}
+ol li.active{
+    display: block;
+}
+ol li{
+    display: none;
+}
